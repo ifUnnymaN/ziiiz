@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.2s easy-out;
+}
+
+img {
+  display: inline-block;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.3;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  background-color: #40E0D0;
+}
+
+header {
+  background-color: #222;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header__logo {
+  position: absolute;
+}
+
+.header__logo a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+ }
+
+.header__logo a:hover {
+  color: #00FF00;
+  border-bottom: 2px solid #00FF00;
+  border-top: 2px solid #00FF00;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin-left: 550px;
+}
+
+.navbar li {
+  padding-right: 35px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar li:last-child {
+  padding-right: 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid #FFD700;
+  color: #FFD700;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+/* .navbar a:hover {
+  color: #FFD700;
+  font-weight: 700;
+} */
+
+.btn a {
+  margin: 0 auto;
+  border: 1px solid #fff;
+  padding: 7px 15px;
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.btn a:hover {
+  border-color: #FFD700;
+  background-color: #FFD700;
+  color: black;
+}
+
+main h3 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+main p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+figure {
+  margin: 0 auto;
+  color: black;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid lightgray;
+  padding: 2px;
+  background-color: #f1f1f1;
+  float: right;
+}
+
+figure img {
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 1px;
+  background-color: #fff;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+/*   border-width: 1px;
+  border-style: solid;
+  border-color: red; */
+  height: 100%;
+}
+
+figure span.green {
+  color: green;
+}
+
+figure span.red {
+  color: red;
+}
+
+footer {
+/*   margin: 0 auto; */
+  width: 100%;
+  background-color: #222;
+  height: 100%;
+  max-heigt: 250px;
+}
+
+.footer__container {
+  margin: 0 auto;
+  color: #fff;
+  width: 100%;
+  max-width: 1200px;
+/*   margin: 0 auto; */
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__contact {
+  font-size: 35px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer__contact span {
+  margin: 0;
+  margin-top: -6px;
+  font-size: 12px;
+  float: right;
+  
+}
+
+.social__icons-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social__icons-img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social__icons-img a {
+  font-size: 33px;
+  margin-top: 2px;
+  margin-right: 20px; 
+}
+
+.social__icons-img a:last-child {
+  margin-right: 0;
+}
+
+.social__icons-img a:hover {
+  color: #FFD700;
+}
+
+.btn__vk {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.btn__vk a {
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 17px;
+  border: 1px solid #fff;
+  padding: 7px 15px;
+  border-radius: 50px;
+}
+
+.btn__vk a:hover {
+  border-color: #FFD700;
+  background-color: #FFD700;
+  color: black;
+}
+
+.btn__vk p {
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: 10px;
+}
